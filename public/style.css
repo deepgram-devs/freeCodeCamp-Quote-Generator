@@ -1,0 +1,88 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#quote-box {
+    padding: 15px 24px;
+    text-align: center;
+    background-color: black;
+    width: 55%;
+    color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient( green, blue) 5 100%;
+    border-image-slice: 30%;
+    height: 35vh;
+}
+
+
+/* Resource: https://css-tricks.com/gradient-borders-in-css/, https://developer.mozilla.org/en-US/docs/Web/CSS/border-image */
+
+#bootstrap-overrides {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    margin: 5px;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    height: 42px;
+}
+
+#tweet-quote {
+    border-radius: 5px;
+    float: left;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 5px;
+    height: 30px;
+    width: 40px;
+    background-color: white;
+    color: black;
+}
+
+a:hover {
+    opacity: 0.9;
+    background-image: linear-gradient(to right, #88d6f8, rgb(135, 184, 241), rgb(40, 164, 196));
+}
+
+button:hover {
+    background-image: linear-gradient(to right, rgb(190, 135, 241), rgb(142, 142, 252), #88d6f8, #40e495, #30dd8a);
+}
+
+.h1,
+h1 {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#text {
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    padding: 40px 0px 10px;
+    min-height: 2vh;
+    max-height: 8vh;
+    text-align: center;
+}
+
+#author {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
